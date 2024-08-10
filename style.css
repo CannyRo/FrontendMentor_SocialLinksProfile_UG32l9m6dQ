@@ -26,10 +26,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 116px 24px;
-}
-main{
-    flex-grow: 1;
 }
 ul, ol{
     list-style: none;
@@ -97,4 +95,19 @@ ul, ol{
 .attribution{
 position: absolute;
 bottom: 0;
+}
+
+@media (min-width: 768px) { 
+    body{
+        padding: 40px;
+    }
+    .card{
+        padding: 40px;
+        width: 456px;
+    }
+}
+@media (min-width: 992px) { 
+    .card{
+        width: 384px;
+    }
 }
