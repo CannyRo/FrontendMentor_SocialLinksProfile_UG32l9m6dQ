@@ -88,7 +88,7 @@ ul, ol{
     transition-duration: 1s;
     transition-timing-function: ease-out;
 }
-.btn:hover{
+.btn:hover, .btn:focus{
     color: var(--grey-700);
     background-color: var(--green);
 }
