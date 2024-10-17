@@ -32,6 +32,9 @@ body{
 ul, ol{
     list-style: inside;
 }
+li{
+    display: flex;
+}
 .card{
     padding: 24px;
     width: 327px;
