@@ -30,7 +30,7 @@ body{
     padding: 116px 24px;
 }
 ul, ol{
-    list-style: none;
+    list-style: inside;
 }
 .card{
     padding: 24px;
